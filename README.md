@@ -109,7 +109,7 @@ This is the endpoint of the application (e.g., https://devweb.estia.fr/project/t
 
 ```php
 <?php
-    // Include the model (the data) from the model folder
+    // Include the models (the data) from the models folder
     include_once('scripts/php/models/the_model.php');
     // Include the view (the display) from the view folder
     include_once('scripts/php/views/the_view.php');
