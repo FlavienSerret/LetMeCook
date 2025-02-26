@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: linear-gradient(90deg, #e2e2e2, #c9d6ff);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 15px 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+    z-index: 1000;
+}
+
+
+.site-name {
+    color: #333;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;      /* Retire le soulignement */
+}
+
+
+
+.search-container {
+    flex-grow: 1;
+    margin: 0 20px;
+    display: flex;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    background: #eee;
+    outline: none;
+    font-weight: 500;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.account-btn, .favorite-btn {
+    background: #7494ec;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.account-btn:hover, .favorite-btn:hover {
+    background: #5a7bd5;
+}
+
+.content {
+    padding-top: 80px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.recette-img-container {
+    width: 100%; /* Assurez-vous que le container prend toute la largeur */
+    height: auto; /* La hauteur s'adapte automatiquement pour garder les proportions */
+    overflow: hidden; /* Masque l'excédent d'image */
+    display: flex; /* Utilisation de Flexbox pour centrer l'image */
+    justify-content: center; /* Centre l'image horizontalement */
+    align-items: center; /* Centre l'image verticalement */
+    margin-top : 20px;
+}
+
+.recette-img {
+    width: 50%; /* L'image prend 50% de la largeur du conteneur */
+    height: 50%; /* L'image occupe 50% de la hauteur du conteneur */
+    object-fit: contain; /* L'image s'ajuste dans le cadre sans déformation, tout en gardant ses proportions */
+    max-width: 100%; /* La largeur maximale de l'image sera limitée à celle du conteneur */
+    max-height: 100%; /* La hauteur maximale de l'image sera limitée à celle du conteneur */
+}
+
+/* Ajuster la taille de la vidéo */
+.live-video {
+    width: 70%; /* L'image prend 50% de la largeur du conteneur */
+    height: 400px; /* L'image occupe 50% de la hauteur du conteneur */
+    max-width: 100%; /* La largeur maximale de l'image sera limitée à celle du conteneur */
+    max-height: 100%; /* La hauteur maximale de l'image sera limitée à celle du conteneur */
+}
+
+/* Centrer le conteneur de la vidéo */
+.video-container {
+    width: 100%; /* Assurez-vous que le container prend toute la largeur */
+    display: flex; /* Utilisation de Flexbox pour centrer l'image */
+    justify-content: center; /* Centre l'image horizontalement */
+    align-items: center; /* Centre l'image verticalement */
+    margin-top : 20px;
+}
+
+
+
+
+

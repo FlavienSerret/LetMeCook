@@ -1,0 +1,337 @@
+/* Section Ingrédients */
+#ingredientsTable {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9; /* Fond légèrement gris pour les ingrédients */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre douce autour du tableau */
+}
+
+#ingredientsTable th, #ingredientsTable td {
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#ingredientsTable th {
+    background-color: #7494ec; /* Couleur de fond pour les en-têtes */
+    color: white; /* Texte blanc pour les en-têtes */
+    font-weight: bold;
+}
+
+#ingredientsTable td:first-child {
+    font-weight: bold;
+}
+
+/* Style pour l'input du nombre de personnes */
+#personnes {
+    width: 70px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    text-align: center;
+}
+
+/* Style pour le bouton de mise à jour des ingrédients */
+#updateIngr {
+    padding: 10px 20px;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#updateIngr:hover {
+    background-color: #ec971f;
+    border-color: #d58512;
+}
+
+/* Exemple de style du bouton "Ajouter aux favoris" */
+.btn-warning {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #ec971f;
+    border-color: #d58512;
+}
+
+/* Style pour les lignes du tableau quand l'utilisateur survole */
+#ingredientsTable tr:hover {
+    background-color: #e2e2e2;
+}
+
+/* Style pour les ingrédients dans une nouvelle ligne */
+#ingredientsTable td {
+    background-color: #f7f7f7;
+}
+
+/* Petit ajustement pour la largeur des colonnes */
+#ingredientsTable td:nth-child(1) {
+    width: 40%;
+}
+
+#ingredientsTable td:nth-child(2) {
+    width: 40%;
+}
+
+#ingredientsTable td:nth-child(3) {
+    width: 20%;
+}
+
+/* Style général pour les éléments de texte dans le tableau */
+#ingredientsTable td, #ingredientsTable th {
+    font-size: 14px;
+}
+/* Section Ingrédients */
+#ingredientsTable {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#ingredientsTable td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+}
+
+#ingredientsTable td:first-child {
+    font-weight: bold;
+}
+
+/* Style pour les ingrédients */
+#ingredientsList {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#ingredientsList li {
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ingredientsList li span {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Section pour changer le nombre de personnes */
+#personnesWrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#personnesWrapper input {
+    width: 60px;
+    margin-right: 10px;
+}
+
+#personnesWrapper button {
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#personnesWrapper button:hover {
+    background-color: #31b0d5;
+}
+
+/* Tableau pour calories, date de publication et temps de préparation */
+.info-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-table td {
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    text-align: left;
+    color: #333;
+}
+
+.info-table td:first-child {
+    font-weight: 600;
+    color: #333;
+}
+
+.info-table tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.info-table tr:hover {
+    background-color: #e2e2e2;
+}
+
+.info-table td strong {
+    color: #7494ec;
+}
+
+/* Style pour les informations affichées */
+.info-title {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.info-value {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Section Étapes de Préparation */
+#etapesTable {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9; /* Fond légèrement gris */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+#etapesTable th, #etapesTable td {
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#etapesTable th {
+    background-color: #7494ec; /* Bleu pour les en-têtes */
+    color: white;
+    font-weight: bold;
+}
+
+#etapesTable td:first-child {
+    font-weight: bold;
+    text-align: center;
+    width: 10%;
+}
+
+#etapesTable td:nth-child(2) {
+    width: 70%;
+}
+
+#etapesTable td:nth-child(3) {
+    width: 20%;
+    font-style: italic;
+    color: #555;
+}
+
+/* Style des conseils */
+.etape-conseil {
+    font-weight: bold;
+    color: #ec971f;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Survol des lignes */
+#etapesTable tr:hover {
+    background-color: #e2e2e2;
+}
+
+/* Style pour la liste numérotée */
+.list-group-numbered {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.list-group-item {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+.list-group-item strong {
+    color: #7494ec;
+}
+
+.list-group-item em {
+    display: block;
+    color: #ec971f;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Section Avis */
+.avis-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: auto;
+}
+
+/* Système de notation en étoiles */
+.rating {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.rating input:checked ~ label,
+.rating label:hover,
+.rating label:hover ~ label {
+    color: #f0ad4e;
+}
+
+/* Champ de commentaire */
+#commentaire {
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Bouton */
+.avis-section button {
+    background-color: #f0ad4e;
+    border: none;
+}
+
+.avis-section button:hover {
+    background-color: #ec971f;
+}
+
+/* Dans la section <style> ou un fichier CSS externe */
+.title-favoris {
+    font-size: 36px; /* Taille plus grande du texte */
+    font-weight: bold; /* Gras */
+    text-align: center; /* Centrer le texte */
+    margin-top: 20px; /* Un peu d'espace au-dessus */
+}
+

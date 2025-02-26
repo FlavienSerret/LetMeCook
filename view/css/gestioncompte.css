@@ -1,0 +1,70 @@
+/* Gestion du compte */
+.gestion-compte {
+    padding-top: 80px; /* Décalage pour laisser la place à la navbar */
+    text-align: center;
+    color: #333;
+}
+
+.gestion-compte .title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.gestion-compte .section-title {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+/* Centrer les recettes et ajouter une ligne de séparation */
+.gestion-compte .recettes-list {
+    margin: 20px 0;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.gestion-compte .recettes-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.gestion-compte .recettes-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Boutons en bas */
+.gestion-compte .create-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.gestion-compte .create-buttons .btn {
+    padding: 15px 25px;
+    font-size: 1.2em;
+}
+
+/* Modifier le mot de passe */
+.gestion-compte .mdp-form {
+    margin-top: 20px;
+}
+
+.gestion-compte .mdp-form input {
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.gestion-compte .mdp-form button {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    background-color: #6c757d;
+    color: white;
+}
