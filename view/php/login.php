@@ -41,7 +41,7 @@
         <form action="../../Controller/RegisterController.php" method="POST">
             <h1>Registration</h1>
             <div class="input-box">
-                <input type="text" name=" " placeholder="Nom Prénom " required>
+                <input type="text" name="nom_prenom" placeholder="Nom Prénom " required>
                 <i class='bx bxs-user'></i>
             </div>
             <div class="input-box">
@@ -76,7 +76,8 @@
     <div class="toggle-box">
         <div class="toggle-panel toggle-left">
             <h1>Bienvenue !</h1>
-            <p>Vous n'avez pas de compte ?</p>
+            <p>mail : admin@etu.estia.fr</p>
+            <p>mdp : 123456789</p>
             <button class="btn register-btn">S'inscrire</button>
         </div>
 
